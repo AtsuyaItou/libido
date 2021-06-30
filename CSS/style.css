@@ -1,43 +1,54 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  width:100%;
+}
+html::-webkit-scrollbar {
+  display:none;
+}
+
+/* ヘッダー */
+header{
+ display:flex;
+ width:100%;
+ height:70px;
+ position:fixed;
+ top:0;
+ justify-content:space-between;
+ background:#121212;
+}
+.header-logo h1{
+  font-size:50px;
+  color:#fff;
+  padding:5px 0 5px 15px;
+  font-family: 'Roboto Slab', serif;}
+.header-menu{
+  padding:35px 20px 20px 20px;
+}
+.header-menu a {
+ text-decoration: none;
+ color: #fff;
+ padding: 0 10px;
+}
+.header-menu a:hover{
+ border-bottom: 2px solid #dc143c;
+ padding-bottom: 5px;
+}
+
 /* コンテンツ */
 .em{
   height:200vh;
   width:100%;
+  padding-top:70px;
   background: #008080;
 }
-/* ヘッダー */
-.header {
- display: flex;
- width:95vw;
- height:15px;
- position: fixed;
- justify-content: space-between;
- background: #0d0015;
- padding: 30px;
- color: #ffffff;
- top:0;
-}
-body{
-  width:100vw;
-  padding-top:75px;
-}
-
-.header .header-menu a {
- text-decoration: none;
- color: #ffffff;
- padding: 0 10px;
-}
-
-.header .header-menu a:hover,
-.header .header-menu a.active {
- border-bottom: 2px solid #dc143c;
- padding-bottom: 10px;
-}
-
 
 /* フッター */
 footer{
   width:100%;
-  background:rgba(0,0,0,0.8);
+  background:#121212;
 }
 .footer-left h2{
   color:#fff;
