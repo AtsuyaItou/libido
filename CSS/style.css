@@ -1,5 +1,77 @@
+/* コンテンツ */
 .em{
   height:200vh;
   width:100%;
   background: #008080;
+}
+
+/* ヘッダー */
+.header {
+ display: flex;
+ width:95vw;
+ position: fixed;
+ justify-content: space-between;
+ background: #0d0015;
+ padding: 30px;
+ color: #ffffff;
+ top:0;
+}
+body{
+  width:100vw;
+}
+
+.header .header-menu a {
+ text-decoration: none;
+ color: #ffffff;
+ padding: 0 10px;
+}
+
+.header .header-menu a:hover,
+.header .header-menu a.active {
+ border-bottom: 2px solid #dc143c;
+ padding-bottom: 10px;
+}
+
+
+/* フッター */
+footer{
+  width:100%;
+  background:rgba(0,0,0,0.8);
+}
+.footer-left h2{
+  color:#fff;
+  opacity:0.8;
+  font-size:2em;
+}
+.sns-wrapper{
+  width:50%;
+  margin:0 auto;
+}
+.snss{
+  width:100%;
+  padding-top:20px;
+  text-align:center;
+}
+.snss a{
+  color:#fff;
+}
+.icon{
+  font-size:40px;
+  padding:10px;
+  margin:0 20px;
+  border:3px solid #fff;
+  border-radius:50%;
+  opacity:0.8;
+}
+.icon:hover{
+  opacity:1;
+}
+.copy{
+  padding-top:10px;
+  text-align:center;
+}
+.copy p{
+  color:#fff;
+  opacity:0.8;
+  font-size:0.8em;
 }
