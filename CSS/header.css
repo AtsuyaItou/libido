@@ -1,0 +1,25 @@
+.header {
+ display: flex;
+ width:95vw;
+ position: fixed;
+ justify-content: space-between;
+ background: #0d0015;
+ padding: 30px;
+ color: #ffffff;
+ top:0;
+}
+body{
+  width:100vw;
+}
+
+.header .header-menu a {
+ text-decoration: none;
+ color: #ffffff;
+ padding: 0 10px;
+}
+
+.header .header-menu a:hover,
+.header .header-menu a.active {
+ border-bottom: 2px solid #dc143c;
+ padding-bottom: 10px;
+}
