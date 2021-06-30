@@ -1,2 +1,2 @@
-# libido
+# りびどー
 fetch確認
