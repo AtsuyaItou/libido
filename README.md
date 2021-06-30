@@ -1,1 +1,2 @@
 # libido
+fetch確認
