@@ -1,0 +1,86 @@
+/* .cantact-wrapper{
+  width : 35vw;
+  text-align: center;
+} */
+.contact {
+  width: 960px;/*横幅*/
+  margin: 0 auto;/*中央寄せ*/
+  padding: 60px 0;
+}
+th{
+  user-select: none;
+}
+
+.contact-ttl{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  user-select: none;
+
+}
+
+.contact-table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-item,
+.contact-body {
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+}
+
+.contact-item {
+    text-align: left;
+    width: 30%;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.contact-body {
+    width: 70%;
+}
+
+.form-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #121212;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    border: 1px solid #121212;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.contact-submit {
+  width: 250px;
+  background-color: #121212;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 15px;
+  transition: 700ms;
+  border-radius:0px 2px 0px 0px;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.contact-submit:hover{
+  transition: 500ms;
+  border-radius: 0px 50px 0px 0px;
+}

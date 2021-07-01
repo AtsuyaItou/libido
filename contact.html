@@ -5,6 +5,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact.css">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,13 +18,39 @@
        <h1>LIBIDO</h1>
      </div>
      <div class="header-menu">
-       <a href="#">HOME</a>
+       <a href="clone.html">HOME</a>
        <a href="#">About</a>
        <a href="#">Contact</a>
      </div>
    </header>
      <div class="em">
-       <h2>aaaaa</h2>
+       <div class="contact">
+         <h1 class="contact-ttl">Contact</h1>
+          <form action="" method="POST">
+          <!-- 仮にPOSTにしているが分かりにくかったらGETに変えてもいいよ -->
+            <table class="contact-table">
+              <tr>
+              <th class="contact-item">Name</th>
+                <td class="contact-body">
+                  <input type="text" name="Name" class="form-text" />
+                </td>
+              </tr>
+              <tr>
+                <th class="contact-item">Mail Address</th>
+                <td class="contact-body">
+                  <input type="email" name="Mail" class="form-text" />
+                </td>
+              </tr>
+              <tr>
+                <th class="contact-item">Message</th>
+                <td class="contact-body">
+                  <textarea name="Message" class="form-textarea"></textarea>
+                </td>
+              </tr>
+            </table>
+            <input class="contact-submit" type="submit" value="送信" />
+          </form>
+         </div>
      </div>
     <footer>
       <div class="footer-wrapper">
