@@ -8,6 +8,11 @@ body{
 html::-webkit-scrollbar {
   display:none;
 }
+a{
+  text-decoration:none;
+  font-family: 'Roboto Slab', serif;
+}
+
 
 /* ヘッダー */
 header{
@@ -23,7 +28,8 @@ header{
   font-size:50px;
   color:#fff;
   padding:5px 0 5px 15px;
-  font-family: 'Roboto Slab', serif;}
+  font-family: 'Roboto Slab', serif;
+}
 .header-menu{
   padding:35px 20px 20px 20px;
 }
@@ -50,32 +56,44 @@ footer{
   width:100%;
   background:#121212;
 }
-.footer-left h2{
-  color:#fff;
-  opacity:0.8;
-  font-size:2em;
-}
-.sns-wrapper{
+.footer-wrapper{
   width:50%;
   margin:0 auto;
 }
+.footer-logo{
+  text-align:center;
+  margin-bottom:15px;
+}
+.footer-logo h2{
+  color:#fff;
+  font-family: 'Roboto Slab', serif;
+  opacity:0.8;
+  font-size:2em;
+}
+.comment{
+  font-size:1em;
+  text-align:center;
+  color:#fff;
+  opacity:0.8;
+}
+.sns-wrapper{
+  text-align:center;
+}
 .snss{
   width:100%;
-  padding-top:20px;
-  text-align:center;
+  padding:20px 0;
+  flex-direction:row;
 }
 .snss a{
   color:#fff;
+  font-size:1.5em;
 }
-.icon{
-  font-size:40px;
-  padding:10px;
-  margin:0 20px;
-  border:3px solid #fff;
-  border-radius:50%;
+.icon-wrapper{
+  padding:5px 20px;
+  border:1px solid #fff;
   opacity:0.8;
 }
-.icon:hover{
+.icon-wrapper:hover{
   opacity:1;
 }
 .copy{
