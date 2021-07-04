@@ -21,8 +21,9 @@ header{
  height:10vh;
  position:fixed;
  top:0;
+ z-index:10;
  justify-content:space-between;
- background:#121212;
+ background:#232321;
 }
 .header-logo h1{
   font-size:3.5em;
@@ -49,7 +50,9 @@ header{
   content: '';
   width: 100%;
   height: 2px;
-  background: #dc143c;
+  /* background:#f4a460; */
+  /* background:#de2600; */
+  background:rgba(250,110,0,1);
   transform: scale(0, 1);
   transform-origin: center top;
   transition: transform .2s;
@@ -63,13 +66,14 @@ a:hover::after {
   height:150vh;
   width:100%;
   padding-top:70px;
-  background: #008080;
+  background:#000;
+  opacity:0.92;
 }
 
 /* フッター */
 footer{
   width:100%;
-  background:#121212;
+  background:#232321;
 }
 .footer-wrapper{
   width:50%;
@@ -116,10 +120,7 @@ footer{
   z-index: -1;
   content: '';
   background: rgb(56,63,229);
-  background: -moz-linear-gradient(top,  rgba(56,63,229,1) 0%, rgba(79,55,215,1) 9%, rgba(88,51,206,1) 12%, rgba(101,47,195,1) 15%, rgba(112,43,186,1) 19%, rgba(116,44,182,1) 20%, rgba(137,39,158,1) 24%, rgba(143,39,154,1) 25%, rgba(153,35,145,1) 27%, rgba(160,37,141,1) 29%, rgba(177,41,117,1) 33%, rgba(184,43,111,1) 35%, rgba(190,44,107,1) 35%, rgba(198,49,104,1) 38%, rgba(209,56,87,1) 41%, rgba(214,61,82,1) 43%, rgba(224,64,74,1) 45%, rgba(224,64,72,1) 45%, rgba(226,67,72,1) 46%, rgba(228,71,62,1) 49%, rgba(236,81,53,1) 54%, rgba(238,91,48,1) 60%, rgba(241,90,45,1) 62%, rgba(242,107,51,1) 70%, rgba(240,107,48,1) 71%, rgba(241,111,49,1) 72%, rgba(241,130,49,1) 77%, rgba(245,144,56,1) 82%, rgba(242,152,56,1) 85%, rgba(242,158,60,1) 87%, rgba(242,165,59,1) 90%, rgba(242,178,68,1) 95%, rgba(245,185,71,1) 100%);
-  background: -webkit-linear-gradient(top,  rgba(56,63,229,1) 0%,rgba(79,55,215,1) 9%,rgba(88,51,206,1) 12%,rgba(101,47,195,1) 15%,rgba(112,43,186,1) 19%,rgba(116,44,182,1) 20%,rgba(137,39,158,1) 24%,rgba(143,39,154,1) 25%,rgba(153,35,145,1) 27%,rgba(160,37,141,1) 29%,rgba(177,41,117,1) 33%,rgba(184,43,111,1) 35%,rgba(190,44,107,1) 35%,rgba(198,49,104,1) 38%,rgba(209,56,87,1) 41%,rgba(214,61,82,1) 43%,rgba(224,64,74,1) 45%,rgba(224,64,72,1) 45%,rgba(226,67,72,1) 46%,rgba(228,71,62,1) 49%,rgba(236,81,53,1) 54%,rgba(238,91,48,1) 60%,rgba(241,90,45,1) 62%,rgba(242,107,51,1) 70%,rgba(240,107,48,1) 71%,rgba(241,111,49,1) 72%,rgba(241,130,49,1) 77%,rgba(245,144,56,1) 82%,rgba(242,152,56,1) 85%,rgba(242,158,60,1) 87%,rgba(242,165,59,1) 90%,rgba(242,178,68,1) 95%,rgba(245,185,71,1) 100%);
   background: linear-gradient(to bottom,  rgba(56,63,229,1) 0%,rgba(79,55,215,1) 9%,rgba(88,51,206,1) 12%,rgba(101,47,195,1) 15%,rgba(112,43,186,1) 19%,rgba(116,44,182,1) 20%,rgba(137,39,158,1) 24%,rgba(143,39,154,1) 25%,rgba(153,35,145,1) 27%,rgba(160,37,141,1) 29%,rgba(177,41,117,1) 33%,rgba(184,43,111,1) 35%,rgba(190,44,107,1) 35%,rgba(198,49,104,1) 38%,rgba(209,56,87,1) 41%,rgba(214,61,82,1) 43%,rgba(224,64,74,1) 45%,rgba(224,64,72,1) 45%,rgba(226,67,72,1) 46%,rgba(228,71,62,1) 49%,rgba(236,81,53,1) 54%,rgba(238,91,48,1) 60%,rgba(241,90,45,1) 62%,rgba(242,107,51,1) 70%,rgba(240,107,48,1) 71%,rgba(241,111,49,1) 72%,rgba(241,130,49,1) 77%,rgba(245,144,56,1) 82%,rgba(242,152,56,1) 85%,rgba(242,158,60,1) 87%,rgba(242,165,59,1) 90%,rgba(242,178,68,1) 95%,rgba(245,185,71,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383fe5', endColorstr='#f5b947',GradientType=0 );
   transform-origin: right top;
   transform: scale(0, 1);
   transition: transform .3s;
